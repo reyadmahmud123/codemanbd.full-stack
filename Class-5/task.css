@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+   
+}
+
+
+header{
+  background-color:#1C3180 ;
+  height:130px ;
+  padding:20px;
+  border-bottom: 9px solid #FE630E ;
+}
+
+
+header h1{
+    background-color:#1C3180 ;
+    color:white ;
+    text-align: center;
+    size:64px;
+    padding: 15px;
+}
+
+.post {
+    background-color:white;
+    width:80%;
+    margin: 0 auto;
+  
+    
+    
+}
+
+.post h2{
+    margin-left:15px;
+    font-size:42px ;
+    width: 948px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+   
+}
+
+.post p{
+    
+    font-size:21px;
+    margin-left: 20px;
+    width:950px;
+   
+    
+}
+
+.post p span{
+    color: #FE630E;
+    text-decoration: underline;
+}
+
+.finish{
+    background-color: #1C3180 ;
+    margin-top: 100px;
+    
+   
+  
+   
+}
+
+.two h2{
+     color: #FE630E;
+     font-size: 42px;
+     width: 750px;
+     padding-top: 50px;
+     text-align: center;
+}
+
+.onee{
+    font-size:21px;
+   width: 980px;
+    margin-left: 150px;
+    color: #FFFFFF;
+}
+
+.twoo{
+    font-size:21px;
+    width: 980px;
+     margin-left: 150px;
+     color: #FFFFFF; 
+}
+
+.twoo span{
+    color: #FE630E;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+   margin-left: 110px;
+   gap: 30px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+.btn-praimary{
+    background-color: #FE630E;
+    color: #FFFFFF;
+    padding:15px 35px;
+   display: inline-block;
+}
+
+.btn-praimari{
+    background-color: #FFFFFF;
+    color: #1C3180;
+    padding: 15px 35px;
+    display: inline-block;
+}  

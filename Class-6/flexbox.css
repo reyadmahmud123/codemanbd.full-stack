@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+/* header section start  */
+
+header{
+    background-color: #FFFFFF;
+    padding: 25px 0px;
+   
+    margin: 20px 0;
+}
+
+header h2{
+    font-size: 48px;
+    color: #385F96;
+    position: relative;
+   
+}
+
+.container{
+    max-width: 87%;
+    margin: auto;
+}
+
+.header-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+   list-style: none; 
+}
+
+a{
+   text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    color: #385F96;
+    font-size: 18px;
+}
+
+.btn-praimary{
+    background-color: #385F96;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 15px 41px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+/* header section end  */
+
+/* hero section  */
+
+.hero-wraper{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 180px 0;
+}
+
+
+.one h2{
+    font-size: 48px;
+    color: #385F96;
+     
+}
+
+.one p{
+    font-size: 16px;
+    color: #4E4E4E;
+    margin: 24px 0;
+}
+
+.one a{
+    background-color: #385F96;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 15px 46px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+
+/* middle section  */
+
+.container-middle{
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+     gap: 130px;
+    
+
+}
+
+.two{
+    order: 2;
+   
+}
+
+.two img{
+    order: 2;
+   
+   
+}  
+
+.two h2{
+    color: #385F96;
+    font-size: 34px;
+    
+}
+
+.two p{
+    color: #4E4E4E;
+    font-size: 16px;
+    padding: 24px 0;
+   
+}
+
+.two a{
+    background-color: #385F96;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 15px 46px;
+    display: inline-block;
+    border-radius: 30px
+} 
+
+
+/* last section  */
+
+
+.last img{
+    margin: 200px 0 0 0;
+    width: 100%;
+    
+}
+
+
+/* footer section  */
+
+
+.finish{
+    background-color: #385F96;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0 ;
+    
+} 
+
+
+a:hover{
+    color: black;
+    
+}
+
+p::first-letter{
+    color: aqua;
+    font-size: 30px;
+}
+
+::selection{
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+}
+
+p:hover{
+    font-size: 40px;
+    color: rgb(2, 2, 99);
+}
+
+header h2::before{
+    content: "";
+    background-image: url("undraw_Work_in_progress_re_byic.png");
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+     z-index: -1;
+}
+
+   
+
+
+
+
